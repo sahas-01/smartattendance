@@ -1,0 +1,26 @@
+.toolbar {
+    height: 80px;
+    width: 100%;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border-radius: 12px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.125);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+  .toolbar_input {
+    padding: 5px 20px;
+    border-radius: 4px;
+  }
+  .toolbar h1 {
+    font-size: 1.75rem;
+    color: white;
+    font-weight:400;
+  }
+  .buttons_modal {
+    position: absolute;
+    right: 0;
+    top: 100px;
+  }

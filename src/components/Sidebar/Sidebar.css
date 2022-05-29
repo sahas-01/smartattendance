@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
+
+
+.wallet_info {
+    width: 100%;
+  
+    background: rgba(0, 0, 0, 0.23);
+    backdrop-filter: blur(11px);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sidebar_list {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .inner {
+    display: flex;
+    margin: auto;
+  
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .info_div img {
+    width: 40px;
+  }
+  .text_info {
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    margin-left: 20px;
+  }
+  .text_info > p {
+    font-size: 1.5rem;
+    color: #76809d;
+  }
+  .info_div {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0 2rem 0 0;
+    margin: 20px 0;
+  }
+  .buttons_div {
+    display: flex;
+  }
+  .footer_buttons {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
