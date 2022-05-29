@@ -34,7 +34,7 @@ Start the server
  npm start
 ```
 
-Additionally, to run this project, you will need to add the following environment variables to your .env file
+Additionally, to run this project, you will need to add the following environment variables to your .env file(create the .env in the root directory of this project)
 
 `REACT_APP_BACKEND_URL=<your url>`
 
