@@ -141,7 +141,7 @@ const Signup = () => {
     async function registerUser(event) {
         event.preventDefault()
         console.log(name, age, userName, contact, password, registerNo);
-        const response = await fetch('http://localhost:5000/api/register', {
+        const response = await fetch(`${process.env.REACT_APP_BACKEND_URL}/api/register`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

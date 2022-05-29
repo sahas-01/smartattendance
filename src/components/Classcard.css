@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap");
+
+
+/* Card */
+
+.class-card {
+  width: 75%;
+  height: 175px;
+  backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    margin-left: 20%;
+    margin-bottom: 20px;
+}
+
+
+
+.card :not(:last-child) {
+  margin-bottom: 0px;
+}
+
+.visa_logo {
+  float: right;
+  padding: 10px;
+}
+
+.visa_logo img {
+  width: 70px;
+  height: 40px;
+}
+
+.class_info {
+  padding: 10px;
+  margin: 30px 0;
+}
+
+
+.class_info p {
+  font-size: 22px;
+  padding: 10px 0;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+}
+
+.class_crinfo {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  color: #ffffff;
+}
+
+/* CSS */
+.join-btn {
+    background-color: #1799E1;
+    border: 1px solid #1799E1;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0 20px 50px 0;
+    outline: none;
+    padding: 0.75em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+  }
+  
+  .join-btn:hover,
+  .join-btn:focus {
+    background-color: #1799E1;
+  }
+  
+  .join-btn:focus {
+    box-shadow: 0 0 0 4px #1799E1;
+  }
+  
+  .join-btn:active {
+    background-color: #1799E1;
+    box-shadow: none;
+  }

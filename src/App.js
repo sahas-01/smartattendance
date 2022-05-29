@@ -8,6 +8,8 @@ import Profile from './pages/Student/Profile/Profile';
 import Videointerface from './pages/Student/Videointerface/Videointerface';
 import HomeAdmin from './pages/Admin/Home/Home';
 import Login from './pages/Student/Login/Login';
+import Common from './pages/Common/Common';
+import AddClass from './pages/Admin/AddClass/AddClass';
 
 const theme = createTheme({
   palette: {
@@ -43,10 +45,12 @@ const App = () => {
           <Route path="/user/signup" component={Signup} />
           <Route path='/user/home' component={Home} />
           <Route path='/user/classes' component={Classes} />
-          <Route path='/user/profile' component={Profile} />
+          <Route path='/user/profile/:id' component={Profile} />
           <Route path='/user/video' component={Videointerface} />
           <Route path='/admin/home' component={HomeAdmin} />
           <Route path='/user/login' component={Login} />
+          <Route path='/admin/addclass' component={AddClass} />
+          <Route path='/' component={Common} />
         </Switch>
       </Router>
     </ThemeProvider>

@@ -1,0 +1,12 @@
+.browse_box {
+    background: #111927;
+    background-image: radial-gradient(at 47% 33%, hsl(202.20, 90%, 15%) 0, transparent 59%)
+    radial-gradient(at 82% 65%, hsl(218.00, 39%, 11%) 0, transparent 55%);
+    width: 100%;
+    /* height: 100vh; */
+}
+
+
+
+
+
