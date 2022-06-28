@@ -43,3 +43,7 @@ Additionally, to run this project, you will need to add the following environmen
 **Client:** React, MaterialUI, TailwindCSS, face-api.js
 
 **Server:** Node, Express, MongodB
+
+## Backend URL
+
+https://github.com/sahas-01/smart-attendance-backend
